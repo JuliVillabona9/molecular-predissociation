@@ -39,3 +39,32 @@ The project uses a combination of research data generated during the project and
 ## Status
 
 Documentation and repository organization in progress.
+
+## Installation and Usage
+
+### Requirements
+
+- Python 3
+- NumPy
+- Matplotlib
+- Tkinter (usually included with Python on Windows)
+
+### Setup
+
+1. Download or clone this repository.
+2. Make sure the `Data` directory is available in the project folder.
+3. Install the required Python packages:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+### Run the application
+
+Run the following command from the project root directory:
+
+```bash
+python Predis.py
+```
+
+**Note:** The application uses relative paths to load data files and graphical resources from the `Data` directory. The original directory structure must be preserved.
